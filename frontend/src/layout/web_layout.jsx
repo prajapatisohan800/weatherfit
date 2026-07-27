@@ -1,12 +1,17 @@
 import React from 'react'
+import {Outlet} from 'react-router-dom'
+import Sidebar from '../component/sidebar.jsx'
+import Navbar from '../component/navbar.jsx'
 
-export default function web_layout() {
+export default function Web_layout() {
     return (
-        <div>
-            <div>side bar</div>
+        <div >
+            <div><Sidebar/></div>
             <div>
-                <div>top bar</div>
-                <div>content</div>
+                <div><Navbar/></div>
+                <div>
+                    <main><Outlet/></main>
+                </div>
             </div>
         </div>
     )
