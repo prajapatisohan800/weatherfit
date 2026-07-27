@@ -6,12 +6,12 @@ import Navbar from '../component/navbar.jsx'
 export default function Web_layout() {
     return (
         <div >
-            <div><Sidebar/></div>
+             <div><Sidebar/></div>
             <div>
-                <div><Navbar/></div>
-                <div>
+                <div><Navbar/></div> 
+                 <div>
                     <main><Outlet/></main>
-                </div>
+                </div> 
             </div>
         </div>
     )
