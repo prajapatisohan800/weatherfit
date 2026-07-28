@@ -39,17 +39,21 @@ export default function Home_nav() {
 
           <div className="search-box mx-auto">
 
-            <Search size={18} />
+            {/* <Search size={18} /> */}
+
+            <i className="bi bi-search"></i>
 
             <input
               type="text"
               placeholder="Search for city..."
             />
 
-            <Crosshair
+            {/* <Crosshair
               size={18}
               className="location-icon"
-            />
+            /> */}
+
+            <i className="bi bi-crosshair" className="location-icon"></i>
 
           </div>
 
@@ -59,7 +63,8 @@ export default function Home_nav() {
 
             <div className="location-box">
 
-              <MapPin size={18} />
+              {/* <MapPin size={18} /> */}
+              <i className="bi bi-geo-alt-fill"></i>
 
               <span>Jaipur, Rajasthan</span>
 
@@ -67,15 +72,18 @@ export default function Home_nav() {
 
             <div className="theme-box">
 
-              <Sun size={18} />
+              {/* <Sun size={18} /> */}
+              <i className="bi bi-sun-fill"></i>
+              <i className="bi bi-moon-stars-fill"></i>
 
-              <Moon size={18} />
+              {/* <Moon size={18} /> */}
 
             </div>
 
             <button className="menu-btn">
 
-              <Menu size={22} />
+              {/* <Menu size={22} /> */}
+              <i className="bi bi-list"></i>
 
             </button>
 
