@@ -2,6 +2,9 @@ import React from 'react'
 import Home_nav from './home-page-component/home_nav'
 import Persent_data_img from './home-page-component/persent_data_img'
 import Sun_moon_data from './home-page-component/sun_moon_data'
+import One_day_data from './home-page-component/one_day_data'
+import Week_data from './home-page-component/week_data'
+import Rain_forecast from './home-page-component/rain_forecast'
 
 export default function Home() {
   return (
@@ -12,8 +15,18 @@ export default function Home() {
 
         <div className='row'>
             <div className='col-lg-4 col-sm-12' ><Persent_data_img/> </div>
-            <div className='col-lg-5 col-sm-12' > days data</div>
+            <div className='col-lg-5 col-sm-12' >
+              <div className='row'> <One_day_data/></div>
+              <div className='row'> <Week_data/> </div>
+            </div>
             <div className='col-lg-3 col-sm-12' ><Sun_moon_data/></div>
+        </div>
+
+        <div className='row'>
+          <div className='col-lg-3 col-md-6 col-sm-12'><Rain_forecast/></div>
+          <div className='col-lg-3 col-md-6 col-sm-12'>sohan</div>
+          <div className='col-lg-3 col-md-6 col-sm-12'>sohan</div>
+          <div className='col-lg-3 col-md-6 col-sm-12'>sohan</div>
         </div>
     </div>
   )

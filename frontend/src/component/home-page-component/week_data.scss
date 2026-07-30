@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Inter,sans-serif;
+}
+
+body{
+    background:#f5f7fc;
+    padding:40px;
+}
+
+.forecast-card{
+
+    width:100%;
+    max-width:930px;
+
+    background:#fff;
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    box-shadow:
+    0 10px 30px rgba(15,23,42,.08);
+}
+
+.forecast-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:22px 28px;
+
+    border-bottom:1px solid #edf1f7;
+}
+
+.forecast-header h3{
+
+    font-size:32px;
+    color:#1f2d5c;
+    font-weight:700;
+}
+
+.forecast-header a{
+
+    text-decoration:none;
+
+    color:#5278ff;
+
+    font-size:18px;
+    font-weight:600;
+}
+
+.forecast-days{
+
+    display:flex;
+}
+
+.day-card{
+
+    flex:1;
+
+    text-align:center;
+
+    padding:22px 10px;
+
+    border-right:1px solid #edf1f7;
+
+    transition:.3s;
+}
+
+.day-card:last-child{
+
+    border-right:none;
+}
+
+.day-card:hover{
+
+    background:#fafcff;
+}
+
+.day{
+
+    font-size:22px;
+
+    font-weight:600;
+
+    color:#2d3555;
+
+    margin-bottom:20px;
+}
+
+.day-card img{
+
+    width:52px;
+
+    height:52px;
+
+    object-fit:contain;
+
+    margin-bottom:20px;
+}
+
+.day-card h4{
+
+    font-size:24px;
+
+    color:#2b3557;
+
+    font-weight:700;
+}

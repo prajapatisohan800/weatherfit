@@ -1,0 +1,113 @@
+
+.hourly-card{
+
+    width:100%;
+    max-width:930px;
+
+    background:#fff;
+
+    border-radius:24px;
+
+    box-shadow:
+    0 12px 30px rgba(30,41,59,.08);
+
+    overflow:hidden;
+}
+
+.card-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:22px 28px;
+
+    border-bottom:1px solid #edf2f7;
+}
+
+.card-header h3{
+
+    font-size:28px;
+    font-weight:700;
+    color:#1d2a57;
+}
+
+.card-header a{
+
+    text-decoration:none;
+    color:#4f74ff;
+
+    font-size:18px;
+    font-weight:600;
+}
+
+.forecast-wrapper{
+
+    display:flex;
+}
+
+.forecast-item{
+
+    flex:1;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    padding:22px 10px;
+
+    border-right:1px solid #edf2f7;
+
+    transition:.3s;
+}
+
+.forecast-item:last-child{
+
+    border-right:none;
+}
+
+.forecast-item:hover{
+
+    background:#f9fbff;
+}
+
+.time{
+
+    font-size:18px;
+    font-weight:600;
+    color:#25355d;
+
+    margin-bottom:18px;
+}
+
+.forecast-item img{
+
+    width:52px;
+    height:52px;
+    object-fit:contain;
+
+    margin-bottom:10px;
+}
+
+.rain{
+
+    color:#6f8bd8;
+    font-size:15px;
+    font-weight:600;
+
+    margin-bottom:8px;
+}
+
+.forecast-item h2{
+
+    margin-top:auto;
+
+    font-size:36px;
+    color:#1c2957;
+    font-weight:700;
+}
+
+.active{
+
+    background:#fcfcfd;
+}

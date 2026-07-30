@@ -1,5 +1,5 @@
 import React from 'react';
-import './persent_dataimg.scss';
+import './persend_dataimg.scss';
 
 export default function Persent_data_img() {
   return (

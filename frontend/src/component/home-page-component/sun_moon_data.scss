@@ -1,0 +1,151 @@
+
+
+.sun-moon-card{
+
+    width:390px;
+    background:#fff;
+
+    border-radius:24px;
+
+    padding:25px;
+
+    box-shadow:0 8px 30px rgba(0,0,0,.08);
+}
+
+.sun-moon-card h2{
+
+    font-size:34px;
+    color:#1b2440;
+    margin-bottom:25px;
+}
+
+.top-info{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.item{
+
+    width:45%;
+    text-align:center;
+}
+
+.item img{
+
+    width:42px;
+    margin-bottom:10px;
+}
+
+.item p{
+
+    color:#616b85;
+    font-size:18px;
+}
+
+.item h3{
+
+    font-size:32px;
+    color:#1c2340;
+}
+
+.divider{
+
+    width:1px;
+    height:90px;
+    background:#ececec;
+}
+
+.sun-path{
+
+    position:relative;
+    margin:20px 0;
+}
+
+.sun{
+
+    position:absolute;
+
+    left:50%;
+    top:18px;
+
+    transform:translateX(-50%);
+
+    width:42px;
+    height:42px;
+
+    background:#FDB813;
+    color:#fff;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:24px;
+
+    box-shadow:0 0 15px rgba(253,184,19,.5);
+}
+
+.sun-path svg{
+
+    width:100%;
+}
+
+hr{
+
+    border:none;
+    border-top:1px solid #ececec;
+    margin:20px 0;
+}
+
+.bottom-info{
+
+    display:flex;
+    justify-content:space-between;
+}
+
+.moon-item{
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.moon-item img{
+
+    width:45px;
+}
+
+.moon-item p{
+
+    color:#616b85;
+    font-size:17px;
+}
+
+.moon-item h3{
+
+    font-size:28px;
+    color:#1b2440;
+}
+
+.moon-phase{
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.moon-phase img{
+
+    width:38px;
+}
+
+.moon-phase span{
+
+    font-size:24px;
+    color:#1b2440;
+    font-weight:600;
+}
