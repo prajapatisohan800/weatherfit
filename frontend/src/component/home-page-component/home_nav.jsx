@@ -2,6 +2,8 @@ import React from 'react'
 // import { Search, Crosshair, MapPin, Sun, Moon, Menu } from "lucide-react";
 import "./home_nav.scss";
 
+import weathertopimg from "../../assets/icon/weather_top.png"
+
 export default function Home_nav() {
   return (
 
@@ -12,7 +14,7 @@ export default function Home_nav() {
         {/* Logo */}
 
         <a className="navbar-brand d-flex align-items-center" href="#">
-          <div className="logo-box"></div>
+          <div className="logo-box"><img src={weathertopimg} alt="" /></div>
 
           <span className="logo-text">
             Weather<span>Fit</span>
