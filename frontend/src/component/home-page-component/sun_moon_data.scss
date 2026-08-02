@@ -2,21 +2,18 @@
 
 .sun-moon-card{
 
-    width:390px;
+    // width:390px;
     background:#fff;
-
-    border-radius:24px;
-
-    padding:25px;
-
+    border-radius:10px;
+    padding:15px;
     box-shadow:0 8px 30px rgba(0,0,0,.08);
 }
 
 .sun-moon-card h2{
 
-    font-size:34px;
+    font-size:20px;
     color:#1b2440;
-    margin-bottom:25px;
+    // margin-bottom:25px;
 }
 
 .top-info{
@@ -41,26 +38,27 @@
 .item p{
 
     color:#616b85;
-    font-size:18px;
+    font-size:15px;
+    padding-bottom:5px;
 }
 
 .item h3{
 
-    font-size:32px;
+    font-size:15px;
     color:#1c2340;
 }
 
 .divider{
 
     width:1px;
-    height:90px;
+    height:70px;
     background:#ececec;
 }
 
 .sun-path{
 
     position:relative;
-    margin:20px 0;
+    margin:10px 0;
 }
 
 .sun{
@@ -72,8 +70,8 @@
 
     transform:translateX(-50%);
 
-    width:42px;
-    height:42px;
+    width:35px;
+    height:35px;
 
     background:#FDB813;
     color:#fff;
@@ -84,7 +82,7 @@
     justify-content:center;
     align-items:center;
 
-    font-size:24px;
+    font-size:15px;
 
     box-shadow:0 0 15px rgba(253,184,19,.5);
 }
@@ -122,12 +120,12 @@ hr{
 .moon-item p{
 
     color:#616b85;
-    font-size:17px;
+    font-size:15px;
 }
 
 .moon-item h3{
 
-    font-size:28px;
+    font-size:15px;
     color:#1b2440;
 }
 
@@ -145,7 +143,7 @@ hr{
 
 .moon-phase span{
 
-    font-size:24px;
+    font-size:15px;
     color:#1b2440;
     font-weight:600;
 }

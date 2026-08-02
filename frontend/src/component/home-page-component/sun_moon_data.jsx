@@ -3,22 +3,22 @@ import "./sun_moon_data.scss"
 
 export default function Sun_moon_data() {
   return (
-    <div class="sun-moon-card">
+    <div className="sun-moon-card">
 
     <h2>Sun & Moon</h2>
 
 
-    <div class="top-info">
+    <div className="top-info">
 
-        <div class="item">
+        <div className="item">
             <img src="images/sunrise.png" alt=""/>
             <p>Sunrise</p>
             <h3>05:48 AM</h3>
         </div>
 
-        <div class="divider"></div>
+        <div className="divider"></div>
 
-        <div class="item">
+        <div className="item">
             <img src="images/sunset.png" alt=""/>
             <p>Sunset</p>
             <h3>07:18 PM</h3>
@@ -27,9 +27,9 @@ export default function Sun_moon_data() {
     </div>
 
   
-    <div class="sun-path">
+    <div className="sun-path">
 
-        <div class="sun">
+        <div className="sun">
             ☀
         </div>
 
@@ -37,13 +37,13 @@ export default function Sun_moon_data() {
 
             <defs>
                 <linearGradient id="lineColor" x1="0%" x2="100%">
-                    <stop offset="0%" stop-color="#FDB813"/>
-                    <stop offset="100%" stop-color="#FDB813"/>
+                    <stop offset="0%" stopColor="#FDB813"/>
+                    <stop offset="100%" stopColor="#FDB813"/>
                 </linearGradient>
 
                 <linearGradient id="fillColor" x1="0" x2="0" y1="0" y2="1">
-                    <stop offset="0%" stop-color="#FFD76A" stop-opacity=".45"/>
-                    <stop offset="100%" stop-color="#FFD76A" stop-opacity="0"/>
+                    <stop offset="0%" stopColor="#FFD76A" stopOpacity=".45"/>
+                    <stop offset="100%" stopColor="#FFD76A" stopOpacity="0"/>
                 </linearGradient>
 
             </defs>
@@ -52,7 +52,7 @@ export default function Sun_moon_data() {
                 d="M20 100 Q150 5 280 100"
                 fill="none"
                 stroke="url(#lineColor)"
-                stroke-width="3"
+                strokeWidth="3"
             />
 
             <path
@@ -64,12 +64,12 @@ export default function Sun_moon_data() {
 
     </div>
 
-    <hr/>
+    <hr style={{margin:'8px 0px'}} />
 
   
-    <div class="bottom-info">
+    <div className="bottom-info">
 
-        <div class="moon-item">
+        <div className="moon-item">
             <img src="images/moon.png" alt=""/>
             <div>
                 <p>Moonrise</p>
@@ -77,7 +77,7 @@ export default function Sun_moon_data() {
             </div>
         </div>
 
-        <div class="moon-item">
+        <div className="moon-item">
             <div>
                 <p>Moonset</p>
                 <h3>05:31 AM</h3>
@@ -88,9 +88,9 @@ export default function Sun_moon_data() {
 
     </div>
 
-    <hr/>
+    <hr style={{margin:'8px 0px'}} />
 
-    <div class="moon-phase">
+    <div className="moon-phase">
 
         <img src="images/moon-phase.png" alt=""/>
 

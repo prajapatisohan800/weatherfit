@@ -14,6 +14,7 @@ export default function Persent_data_img() {
   <div className="overlay"></div>
 
   <div className="weather-content">
+    <div style={{padding:"18px"}}>
 
     <div className="top-area">
 
@@ -45,6 +46,8 @@ export default function Persent_data_img() {
     <h4>Partly Cloudy</h4>
 
     <p>Feels like 35°C</p>
+
+    </div>
 
     <div className="weather-info">
 

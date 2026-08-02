@@ -3,27 +3,27 @@ import "./rain_forecast.scss";
 
 export default function Rain_forecast() {
   return (
-    <div class="rain-card">
+    <div className="rain-card">
 
-    <div class="rain-header">
+    <div className="rain-header">
         <img src="images/rain.png" alt=""/>
         <h2>Rain Forecast</h2>
     </div>
 
-    <div class="rain-content">
+    <div className="rain-content">
 
-        <div class="rain-icon">
+        <div className="rain-icon">
             <img src="images/heavy-rain.png" alt=""/>
         </div>
 
-        <div class="rain-details">
+        <div className="rain-details">
             <h1>25% chance</h1>
             <p>Rain possible in the evening</p>
         </div>
 
     </div>
 
-    <div class="chart">
+    <div className="chart">
 
         <svg viewBox="0 0 320 120">
 
@@ -36,8 +36,8 @@ export default function Rain_forecast() {
                 300 70"
                 fill="none"
                 stroke="#2F6BFF"
-                stroke-width="3"
-                stroke-linecap="round"/>
+                strokeWidth="3"
+                strokeLinecap="round"/>
 
             <circle cx="20" cy="90" r="4" fill="#2F6BFF"/>
             <circle cx="90" cy="74" r="4" fill="#2F6BFF"/>
@@ -47,7 +47,7 @@ export default function Rain_forecast() {
 
         </svg>
 
-        <div class="labels">
+        <div className="labels">
 
             <div>
                 <span></span>

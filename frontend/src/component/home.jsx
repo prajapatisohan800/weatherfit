@@ -5,6 +5,9 @@ import Sun_moon_data from './home-page-component/sun_moon_data'
 import One_day_data from './home-page-component/one_day_data'
 import Week_data from './home-page-component/week_data'
 import Rain_forecast from './home-page-component/rain_forecast'
+import Running_tracker from './home-page-component/running_tracker'
+import Home_compase from './home-page-component/home_compase'
+import Home_timer from './home-page-component/home_timer'
 
 export default function Home() {
   return (
@@ -24,9 +27,9 @@ export default function Home() {
 
         <div className='row'>
           <div className='col-lg-3 col-md-6 col-sm-12'><Rain_forecast/></div>
-          <div className='col-lg-3 col-md-6 col-sm-12'>sohan</div>
-          <div className='col-lg-3 col-md-6 col-sm-12'>sohan</div>
-          <div className='col-lg-3 col-md-6 col-sm-12'>sohan</div>
+          <div className='col-lg-3 col-md-6 col-sm-12'><Running_tracker/></div>
+          <div className='col-lg-3 col-md-6 col-sm-12'><Home_compase/></div>
+          <div className='col-lg-3 col-md-6 col-sm-12'><Home_timer/></div>
         </div>
     </div>
   )
