@@ -34,15 +34,16 @@ export default function Home_compase() {
 
             <h2>42°</h2>
 
-            <button className="compass-btn">
-                <i className="bi bi-compass"></i>
-                Open Compass
-            </button>
 
         </div>
 
     </div>
-
+    <div className="compass-info-bottom">
+            <button className="compass-btn">
+                <i className="bi bi-compass"></i>
+                Open Compass
+            </button>
+</div>
 </div>
   )
 }
