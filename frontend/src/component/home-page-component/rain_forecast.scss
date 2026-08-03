@@ -6,7 +6,7 @@
     background:#fff;
 
     border-radius:10px;
-    padding:15px;
+    padding:12px;
 
     box-shadow:0 10px 30px rgba(0,0,0,.07);
 }
@@ -16,7 +16,7 @@
     display:flex;
     align-items:center;
     gap:12px;
-    margin-bottom:35px;
+    margin-bottom:10px;
 }
 
 .rain-header img{
@@ -26,7 +26,7 @@
 
 .rain-header h2{
 
-    font-size:34px;
+    font-size:16px;
     color:#1d2748;
 }
 
@@ -35,18 +35,17 @@
     display:flex;
     align-items:center;
     gap:25px;
-
-    margin-bottom:10px;
+    // margin-bottom:10px;
 }
 
 .rain-icon img{
 
-    width:85px;
+    width:65px;
 }
 
 .rain-details h1{
 
-    font-size:35px;
+    font-size:25px;
     color:#1d2748;
     margin-bottom:0px;
 }
@@ -54,7 +53,9 @@
 .rain-details p{
 
     color:#5d6785;
-    font-size:15px;
+    font-size:12px;
+    padding:0;
+    margin:0;
 }
 
 .chart svg{
@@ -87,4 +88,6 @@
 
     color:#4d5673;
     font-size:12px;
+    padding:0;
+    margin:0;
 }

@@ -1,12 +1,13 @@
 import React from 'react'
 import "./running_tracker.scss"
+import Running from "../../assets/icon/running-50.png"
 
 export default function Running_tracker() {
   return (
     <div className="running-card">
     <div className="running-header">
         <div className="running-icon">
-            <i className="fa-solid fa-person-running"></i>
+            <img src={Running} alt="Running"/>
         </div>
 
         <h2>Running Tracker</h2>
@@ -36,37 +37,37 @@ export default function Running_tracker() {
     <div className="weekly-chart">
 
         <div className="chart-item">
-            <div className="bar light" style={{height: '60px'}}></div>
+            <div className="bar light" style={{height: '20px'}}></div>
             <span>M</span>
         </div>
 
         <div className="chart-item">
-            <div className="bar light" style={{height: '72px'}}></div>
+            <div className="bar light" style={{height: '30px'}}></div>
             <span>T</span>
         </div>
 
         <div className="chart-item">
-            <div className="bar light" style={{height: '78px'}}></div>
+            <div className="bar light" style={{height: '40px'}}></div>
             <span>W</span>
         </div>
 
         <div className="chart-item">
-            <div className="bar active" style={{height: '95px'}}></div>
+            <div className="bar active" style={{height: '50px'}}></div>
             <span>T</span>
         </div>
 
         <div className="chart-item">
-            <div className="bar light" style={{height: '75px'}}></div>
+            <div className="bar light" style={{height: '40px'}}></div>
             <span>F</span>
         </div>
 
         <div className="chart-item">
-            <div className="bar light" style={{height: '70px'}}></div>
+            <div className="bar light" style={{height: '30px'}}></div>
             <span>S</span>
         </div>
 
         <div className="chart-item">
-            <div className="bar light" style={{height: '65px'}}></div>
+            <div className="bar light" style={{height: '20px'}}></div>
             <span>S</span>
         </div>
 

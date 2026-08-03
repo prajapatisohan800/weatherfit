@@ -9,7 +9,7 @@
 
   .navbar-brand{
 
-    gap:12px;
+    gap:20px;
   }
 
   .logo-box{
@@ -155,4 +155,12 @@ display:none;
 
 }
 
+
+}
+
+@media(max-width:768px){
+  .weather-navbar .logo-text{
+ font-size: 30px;
+    
+  }
 }

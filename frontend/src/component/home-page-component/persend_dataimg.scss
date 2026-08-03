@@ -5,7 +5,7 @@
   // height: 430px;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 20px 45px rgba(0, 0, 0, .18);
+  // box-shadow: 0 20px 45px rgba(0, 0, 0, .18);
 }
 
 .bg-image {
@@ -14,14 +14,15 @@
   object-fit: cover;
 }
 
+
 .overlay {
   position: absolute;
   inset: 0;
   background: linear-gradient(
       rgba(37,140,255,.18),
       rgba(0,0,0,.15)
-    );
-}
+      );
+    }
 
 .weather-content{
   position:absolute;
@@ -85,17 +86,22 @@ p{
   display:grid;
   grid-template-columns:repeat(5,1fr);
   background:rgba(0,0,0,.28);
-  backdrop-filter:blur(12px);
+  backdrop-filter:blur(5px);
   // border-radius:18px;
-  padding:15px;
+  padding:10px;
 }
 
+.persent-rain-chance-12{
+  display:flex;
+  justify-content:center;
+  gap:5px;
+}
 .info-box{
   text-align:center;
 
   i{
-    font-size:15px;
-    margin-bottom:6px;
+    font-size:12px;
+    // margin-bottom:6px;
     display:block;
   }
 
@@ -107,7 +113,7 @@ p{
 
   strong{
     display:block;
-    margin-top:1px;
+    // margin-top:1px;
     font-size:15px;
   }
 }

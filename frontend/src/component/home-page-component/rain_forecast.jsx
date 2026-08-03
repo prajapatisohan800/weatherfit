@@ -1,19 +1,22 @@
 import React from 'react'
 import "./rain_forecast.scss";
 
+import cloud from "../../assets/icon/cloud-148.png"
+import cloudRain from "../../assets/icon/cloud-with-rain-48.png"
+
 export default function Rain_forecast() {
   return (
     <div className="rain-card">
 
     <div className="rain-header">
-        <img src="images/rain.png" alt=""/>
+        <img src={cloud} alt="Rain"/>
         <h2>Rain Forecast</h2>
     </div>
 
     <div className="rain-content">
 
         <div className="rain-icon">
-            <img src="images/heavy-rain.png" alt=""/>
+            <img src={cloudRain} alt="Heavy Rain"/>
         </div>
 
         <div className="rain-details">
@@ -41,7 +44,7 @@ export default function Rain_forecast() {
 
             <circle cx="20" cy="90" r="4" fill="#2F6BFF"/>
             <circle cx="90" cy="74" r="4" fill="#2F6BFF"/>
-            <circle cx="160" cy="56" r="4" fill="#2F6BFF"/>
+            <circle cx="160" cy="59" r="4" fill="#2F6BFF"/>
             <circle cx="230" cy="42" r="4" fill="#2F6BFF"/>
             <circle cx="300" cy="70" r="4" fill="#2F6BFF"/>
 
@@ -50,27 +53,27 @@ export default function Rain_forecast() {
         <div className="labels">
 
             <div>
-                <span></span>
+                {/* <span></span> */}
                 <p>Now</p>
             </div>
 
             <div>
-                <span>30%</span>
+                {/* <span>30%</span> */}
                 <p>1 PM</p>
             </div>
 
             <div>
-                <span>45%</span>
+                {/* <span>45%</span> */}
                 <p>4 PM</p>
             </div>
 
             <div>
-                <span>60%</span>
+                {/* <span>60%</span> */}
                 <p>7 PM</p>
             </div>
 
             <div>
-                <span>25%</span>
+                {/* <span>25%</span> */}
                 <p>10 PM</p>
             </div>
 

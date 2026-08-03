@@ -6,7 +6,7 @@
 
     background:#fff;
 
-    border-radius:24px;
+    border-radius:10px;
 
     box-shadow:
     0 12px 30px rgba(30,41,59,.08);
@@ -26,7 +26,7 @@
 
 .card-header h3{
 
-    font-size:20px;
+    font-size:16px;
     font-weight:700;
     color:#1d2a57;
 }
@@ -36,7 +36,7 @@
     text-decoration:none;
     color:#4f74ff;
 
-    font-size:15px;
+    font-size:11px;
     font-weight:600;
 }
 
@@ -53,10 +53,9 @@
     flex-direction:column;
     align-items:center;
 
-    padding:10px 10px;
-
+    // padding:10px 10px;
+    padding-top:10px;
     border-right:1px solid #edf2f7;
-
     transition:.3s;
 }
 
@@ -80,17 +79,16 @@
 
 .forecast-item img{
 
-    width:45px;
-    height:45px;
+    width:30px;
+    height:30px;
     object-fit:contain;
-
-    margin-bottom:10px;
+    margin-bottom:5px;
 }
 
 .rain{
 
     color:#6f8bd8;
-    font-size:15px;
+    font-size:12px;
     font-weight:600;
 
     margin-bottom:8px;

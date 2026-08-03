@@ -1,5 +1,11 @@
 import React from 'react'
-import "./week_data.scss"
+import "./week_data.scss";
+
+import sunminIcon from "../../assets/icon/sun-min-cloud-64.png"
+import sunIcon from "../../assets/icon/sun-64.png"
+import cloudRain from "../../assets/icon/cloud-with-rain-48.png"
+import cloudLightRain from "../../assets/icon/cloud-with-lightning-and-rain-48.png"
+import cloud from "../../assets/icon/cloud-48.png"
 
 export default function Week_data() {
   return (
@@ -18,7 +24,7 @@ export default function Week_data() {
         <div className="day-card">
             <p className="day">Mon</p>
 
-            <img src="https://dummyimage.com/55x55/fdb813/ffffff.png&text=☀"/>
+            <img src={sunIcon} alt="weather"/>
 
             <h4>32° / 26°</h4>
         </div>
@@ -26,7 +32,7 @@ export default function Week_data() {
         <div className="day-card">
             <p className="day">Tue</p>
 
-            <img src="https://dummyimage.com/55x55/fdb813/ffffff.png&text=⛅"/>
+            <img src={cloudLightRain} alt="weather"/>
 
             <h4>33° / 26°</h4>
         </div>
@@ -34,7 +40,7 @@ export default function Week_data() {
         <div className="day-card">
             <p className="day">Wed</p>
 
-            <img src="https://dummyimage.com/55x55/5fa8ff/ffffff.png&text=🌧"/>
+            <img src={cloudRain} alt="weather"/>
 
             <h4>31° / 25°</h4>
         </div>
@@ -42,7 +48,7 @@ export default function Week_data() {
         <div className="day-card">
             <p className="day">Thu</p>
 
-            <img src="https://dummyimage.com/55x55/5fa8ff/ffffff.png&text=🌧"/>
+            <img src={cloud} alt="weather"/>
 
             <h4>30° / 25°</h4>
         </div>
@@ -50,7 +56,7 @@ export default function Week_data() {
         <div className="day-card">
             <p className="day">Fri</p>
 
-            <img src="https://dummyimage.com/55x55/fdb813/ffffff.png&text=⛅"/>
+            <img src={sunIcon} alt="weather"/>
 
             <h4>32° / 26°</h4>
         </div>
@@ -58,7 +64,7 @@ export default function Week_data() {
         <div className="day-card">
             <p className="day">Sat</p>
 
-            <img src="https://dummyimage.com/55x55/fdb813/ffffff.png&text=☀"/>
+            <img src={sunIcon} alt="weather"/>
 
             <h4>33° / 27°</h4>
         </div>
@@ -66,7 +72,7 @@ export default function Week_data() {
         <div className="day-card">
             <p className="day">Sun</p>
 
-            <img src="https://dummyimage.com/55x55/fdb813/ffffff.png&text=⛅"/>
+            <img src={sunIcon} alt="weather"/>
 
             <h4>32° / 26°</h4>
         </div>

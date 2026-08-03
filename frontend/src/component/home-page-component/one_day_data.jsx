@@ -1,5 +1,12 @@
 import React from 'react'
-import "./one_day_data.scss"
+import "./one_day_data.scss";
+
+import sunminIcon from "../../assets/icon/sun-min-cloud-64.png"
+import sunIcon from "../../assets/icon/sun-64.png"
+import cloudRain from "../../assets/icon/cloud-with-rain-48.png"
+import cloudLightRain from "../../assets/icon/cloud-with-lightning-and-rain-48.png"
+import cloud from "../../assets/icon/cloud-48.png"
+
 
 export default function One_day_data() {
   return (
@@ -14,7 +21,7 @@ export default function One_day_data() {
         <div className="forecast-item active">
             <p className="time">Now</p>
 
-            <img src="https://dummyimage.com/50x50/ffd54f/ffffff.png&text=☀" alt="weather"/>
+            <img src={sunminIcon} alt="weather"/>
 
             <h2>32°C</h2>
         </div>
@@ -22,7 +29,7 @@ export default function One_day_data() {
         <div className="forecast-item">
             <p className="time">11 AM</p>
 
-            <img src="https://dummyimage.com/50x50/fbc02d/ffffff.png&text=☀" alt="weather"/>
+            <img src={sunIcon} alt="weather"/>
 
             <h2>33°C</h2>
         </div>
@@ -30,7 +37,7 @@ export default function One_day_data() {
         <div className="forecast-item">
             <p className="time">12 PM</p>
 
-            <img src="https://dummyimage.com/50x50/fbc02d/ffffff.png&text=☀" alt="weather"/>
+            <img src={sunIcon} alt="weather"/>
 
             <h2>34°C</h2>
         </div>
@@ -38,7 +45,7 @@ export default function One_day_data() {
         <div className="forecast-item">
             <p className="time">1 PM</p>
 
-            <img src="https://dummyimage.com/50x50/64b5f6/ffffff.png&text=☂" alt="weather"/>
+            <img src={cloudRain} alt="weather"/>
 
             <span className="rain">30%</span>
 
@@ -48,7 +55,7 @@ export default function One_day_data() {
         <div className="forecast-item">
             <p className="time">2 PM</p>
 
-            <img src="https://dummyimage.com/50x50/64b5f6/ffffff.png&text=☂" alt="weather"/>
+            <img src={cloudRain} alt="weather"/>
 
             <span className="rain">40%</span>
 
@@ -58,7 +65,7 @@ export default function One_day_data() {
         <div className="forecast-item">
             <p className="time">3 PM</p>
 
-            <img src="https://dummyimage.com/50x50/64b5f6/ffffff.png&text=☂" alt="weather"/>
+            <img src={cloudLightRain} alt="weather"/>
 
             <span className="rain">60%</span>
 
@@ -68,7 +75,7 @@ export default function One_day_data() {
         <div className="forecast-item">
             <p className="time">4 PM</p>
 
-            <img src="https://dummyimage.com/50x50/90caf9/ffffff.png&text=☁" alt="weather"/>
+            <img src={cloud} alt="weather"/>
 
             <h2>28°C</h2>
         </div>

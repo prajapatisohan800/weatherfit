@@ -19,8 +19,8 @@ export default function Home() {
         <div className='row'>
             <div className='col-lg-4 col-sm-12' ><Persent_data_img/> </div>
             <div className='col-lg-5 col-sm-12' >
-              <div className='row'> <One_day_data/></div>
-              <div className='row'> <Week_data/> </div>
+              <div className='row mb-2'> <One_day_data/></div>
+              <div className='row mb-2'> <Week_data/> </div>
             </div>
             <div className='col-lg-3 col-sm-12' ><Sun_moon_data/></div>
         </div>

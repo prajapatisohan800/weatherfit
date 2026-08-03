@@ -52,32 +52,42 @@ export default function Persent_data_img() {
     <div className="weather-info">
 
       <div className="info-box">
+        <div className="persent-rain-chance-12">
         <i className="bi bi-cloud-drizzle"></i>
         <small>Rain Chance</small>
+        </div>
         <strong>25%</strong>
       </div>
 
       <div className="info-box">
+        <div className="persent-rain-chance-12">
         <i className="bi bi-droplet-fill"></i>
         <small>Humidity</small>
+        </div>
         <strong>68%</strong>
       </div>
 
       <div className="info-box">
+        <div className="persent-rain-chance-12">
         <i className="bi bi-wind"></i>
         <small>Wind</small>
+        </div>
         <strong>12 km/h</strong>
       </div>
 
       <div className="info-box">
+        <div className="persent-rain-chance-12">
         <i className="bi bi-eye"></i>
         <small>Visibility</small>
+        </div>
         <strong>8 km</strong>
       </div>
 
       <div className="info-box">
+        <div className="persent-rain-chance-12">
         <i className="bi bi-speedometer2"></i>
         <small>Pressure</small>
+        </div>
         <strong>1008 hPa</strong>
       </div>
 
