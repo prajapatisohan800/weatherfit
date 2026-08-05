@@ -1,0 +1,175 @@
+
+
+.uv-card{
+
+    // width:350px;
+    padding:22px 25px;
+    background:#fffdf7;
+    border-radius:18px;
+    border:1px solid #f5e9d6;
+
+    // box-shadow:0 4px 15px rgba(0,0,0,0.08);
+
+}
+
+
+/* Title */
+
+.uv-title{
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+}
+
+
+.sun_uv{
+
+    color:#ffb300;
+    font-size:25px;
+
+}
+
+
+.uv-title h3{
+
+    color:#e69b00;
+    font-size:18px;
+
+}
+
+
+/* Content */
+
+
+.uv-content{
+
+    display:flex;
+    align-items:center;
+    gap:22px;
+    margin-top:25px;
+
+}
+
+
+.uv-circle{
+
+    width:65px;
+    height:65px;
+
+    background:#ffd96a;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+.uv-circle span{
+
+    font-size:26px;
+    font-weight:700;
+    color:#202020;
+
+}
+
+
+
+.uv-info h2{
+
+    font-size:20px;
+    margin-bottom:5px;
+
+}
+
+
+.uv-info p{
+
+    font-size:13px;
+    color:#333;
+
+}
+
+
+
+/* UV Bar */
+
+
+.uv-scale{
+
+    margin-top:25px;
+
+}
+
+
+.line{
+
+    height:8px;
+
+    border-radius:20px;
+
+    background:
+    linear-gradient(
+        90deg,
+        #19b955 0%,
+        #8ed448 25%,
+        #ffc83d 50%,
+        #ff8b38 70%,
+        #ff304b 100%
+    );
+
+    position:relative;
+
+}
+
+
+
+.indicator{
+
+    width:15px;
+    height:15px;
+
+    background:#ff9800;
+
+    border-radius:50%;
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    border:2px solid white;
+
+}
+
+
+
+
+.numbers{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:8px;
+
+    font-size:12px;
+
+    color:#555;
+
+}
+
+
+.numbers .active{
+
+    color:#ff9800;
+
+    font-weight:bold;
+
+}

@@ -4,9 +4,9 @@ import Running from "../../assets/icon/running-50.png"
 
 export default function Running_tracker() {
   return (
-    <div className="running-card">
-    <div className="running-header">
-        <div className="running-icon">
+    <div className="running_t-card">
+    <div className="running_t-header">
+        <div className="running_t-icon">
             <img src={Running} alt="Running"/>
         </div>
 

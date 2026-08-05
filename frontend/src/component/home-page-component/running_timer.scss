@@ -1,0 +1,126 @@
+
+
+
+.running-card{
+
+    // width:370px;
+    // height:185px;
+    background:linear-gradient(
+        180deg,
+        #eef8ff,
+        #dff1ff
+    );
+    border:1px solid #d9e8ff;
+    border-radius:18px;
+    padding:22px;
+    position:relative;
+    // overflow:hidden;
+
+    // box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+
+/* Title */
+
+.title{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+
+.shoe{
+    font-size:24px;
+}
+
+
+.title h3{
+
+    color:#182d70;
+    font-size:17px;
+}
+
+
+/* Time */
+
+.running-card h1{
+
+    margin-top:28px;
+    text-align:center;
+
+    color:#162b72;
+    font-size:26px;
+    letter-spacing:1px;
+
+}
+
+
+/* Description */
+
+.running-card p{
+
+    text-align:center;
+    margin-top:8px;
+
+    color:#354575;
+    font-size:15px;
+
+}
+
+
+.running-card p span{
+    padding:0 8px;
+}
+
+
+/* Bottom city */
+
+.city-bg{
+
+    position:absolute;
+    bottom:0;
+    left:0;
+
+    width:100%;
+    // height:70px;
+
+    background:
+    linear-gradient(
+        transparent,
+        rgba(160,210,235,.5)
+    );
+
+}
+
+
+/* Runner */
+
+.runner{
+
+    position:absolute;
+
+    bottom:5px;
+    left:45%;
+
+    font-size:42px;
+
+    filter:drop-shadow(0 5px 5px rgba(0,0,0,.2));
+
+}
+
+
+/* Trees effect */
+
+.city-bg::before{
+
+    content:"🌲 🌲 🌲       🌲 🌲";
+
+    position:absolute;
+
+    bottom:0;
+    left:40px;
+
+    font-size:35px;
+    opacity:.65;
+
+}
