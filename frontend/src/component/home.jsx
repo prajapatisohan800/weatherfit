@@ -8,6 +8,7 @@ import Rain_forecast from './home-page-component/rain_forecast'
 import Running_tracker from './home-page-component/running_tracker'
 import Home_compase from './home-page-component/home_compase'
 import Home_timer from './home-page-component/home_timer'
+import Air_quality from './home-page-component/air_quality'
 
 export default function Home() {
   return (
@@ -25,8 +26,15 @@ export default function Home() {
             <div className='col-lg-3 col-sm-12' ><Sun_moon_data/></div>
         </div>
 
-        <div className='row'>
+        <div className='row mb-3'>
           <div className='col-lg-3 col-md-6 col-sm-12'><Rain_forecast/></div>
+          <div className='col-lg-3 col-md-6 col-sm-12'><Running_tracker/></div>
+          <div className='col-lg-3 col-md-6 col-sm-12'><Home_compase/></div>
+          <div className='col-lg-3 col-md-6 col-sm-12'><Home_timer/></div>
+        </div>
+
+         <div className='row'>
+          <div className='col-lg-3 col-md-6 col-sm-12'><Air_quality/></div>
           <div className='col-lg-3 col-md-6 col-sm-12'><Running_tracker/></div>
           <div className='col-lg-3 col-md-6 col-sm-12'><Home_compase/></div>
           <div className='col-lg-3 col-md-6 col-sm-12'><Home_timer/></div>

@@ -1,0 +1,176 @@
+.air-quality-card {
+    width: 100%;
+    max-width: 380px;
+    background: #f4fcf8;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    border: 1px solid #e3eee8;
+}
+
+
+.air-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .leaf-icon {
+        font-size: 28px;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 22px;
+        color: #176b4a;
+        font-weight: 700;
+    }
+}
+
+
+
+.air-content {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+
+
+.aqi-circle {
+
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+
+    background:
+    conic-gradient(
+        #18b56d 0deg 220deg,
+        #c9eadb 220deg 360deg
+    );
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+
+    &::before {
+
+        content:"";
+        width:80px;
+        height:80px;
+        background:#f4fcf8;
+        border-radius:50%;
+        position:absolute;
+
+    }
+
+}
+
+
+
+.aqi-value {
+
+    position:relative;
+    text-align:center;
+    z-index:2;
+
+
+    h1 {
+        margin:0;
+        font-size:32px;
+        color:#173c36;
+    }
+
+    span {
+        font-size:14px;
+        color:#555;
+    }
+
+}
+
+
+
+.air-status {
+
+    h3 {
+        margin:0;
+        font-size:22px;
+        color:#18264b;
+    }
+
+
+    p {
+        margin-top:5px;
+        font-size:14px;
+        color:#344054;
+    }
+
+}
+
+
+
+.aqi-bar {
+
+    margin-top:25px;
+
+}
+
+
+
+.bar {
+
+    height:8px;
+    border-radius:20px;
+
+    background:linear-gradient(
+        90deg,
+        #16b364 0%,
+        #16b364 25%,
+        #f5d000 45%,
+        #ff9b00 65%,
+        #ff3030 100%
+    );
+
+    position:relative;
+
+}
+
+
+
+.pointer {
+
+    position:absolute;
+
+    left:20%;
+
+    top:-6px;
+
+    width:18px;
+    height:18px;
+
+    background:#2dbb73;
+
+    border-radius:50%;
+
+    border:3px solid white;
+
+}
+
+
+
+.scale {
+
+    display:flex;
+    justify-content:space-between;
+
+    margin-top:10px;
+
+    span {
+
+        font-size:12px;
+        color:#667085;
+
+    }
+
+}
